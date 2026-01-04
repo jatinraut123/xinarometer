@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Xinarometer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="device">
+    <h1>XINAROMETER</h1>
+    <p>Place finger on scanner</p>
+
+    <div class="scanner" id="scanner"></div>
+
+    <button onclick="startScan()">Scan</button>
+
+    <div class="message" id="message"></div>
+
+    <div class="scale">
+        <div class="scale-fill" id="fill"></div>
+        <div class="marker" id="marker"></div>
+    </div>
+
+    <div class="divisions">
+        <span>0</span><span>20</span><span>40</span>
+        <span>60</span><span>80</span><span>100</span>
+    </div>
+
+    <div class="result" id="result"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
